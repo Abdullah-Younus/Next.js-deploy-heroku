@@ -8,7 +8,7 @@ export default function Home() {
     event.preventDefault();
     axios({
       method: 'post',
-      url:'https://nextjsappdeploy.herokuapp.com/auth/login',
+      url: 'https://nextjsappdeploy.herokuapp.com/auth/login',
       data: {
         email: document.getElementById('email').value,
         password: document.getElementById('password').value

@@ -2,10 +2,15 @@
   "name": "helloworld",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "build": "webpack",
+    "start": "nodemon server.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah-Younus/Next.js-deploy-heroku.git"
   },
   "author": "",
   "license": "MIT",
